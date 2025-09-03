@@ -1,0 +1,51 @@
+.consulta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    align-items: center;
+    width: 100%;
+}
+
+.consulta_dia{
+    color: var(--cor-fonte-nome);
+    font-weight: var(--peso-fonte-nome);
+    font-size: 1rem;
+    margin-left:1.2rem ;
+}
+
+.card__consulta {
+    margin-top: 0.5rem;
+    background-color: white;
+    border-radius: 8px;
+    width: 90%;
+    height: 20vh;
+
+}
+
+.container__consulta {
+    display: flex;
+    height: 30%;
+    margin: 1rem 0 0 1rem;
+    gap: 1rem;
+    line-height: 1.2rem;
+
+}
+
+.pessoa__nome {
+    color: var(--cor-fonte-nome);
+    font-weight: var(--peso-fonte-nome);
+}
+
+.consulta__tipo {
+    display: flex;
+    gap: 0.5rem;
+    color: var(--cor-fonte-consulta);
+    font-size: var(--fonte-consulta-tamanho);
+    font-weight: var(--peso-fonte-consult);
+}
+
+.chat__consulta {
+    margin: 0 0 0 4.8rem;
+
+}

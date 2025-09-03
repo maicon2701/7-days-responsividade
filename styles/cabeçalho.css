@@ -1,0 +1,26 @@
+.cabeçalho{
+    display: flex;    
+    align-items: center;
+    justify-content: space-around;
+    height: 15%;
+}
+
+.container__cabeçalho{
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    width: 65%;
+}
+
+
+.nome__cabeçalho{
+    font-size: 1.3rem;
+    font-weight: var(--peso-fonte-nome);
+    color: var(--cor-fonte-nome);
+}
+
+.consultas__cabeçalho{
+    font-size: 0.9rem;
+    font-weight: var(--peso-fonte-consulta);
+    color: var(--cor-fonte-consulta);
+}
