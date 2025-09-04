@@ -2,13 +2,14 @@
 @import url(styles/consulta.css);
 
 :root{
-    --cor-de-fundo: #e6e4f0;
+    --cor-de-fundo:  #F8F4FF;
     --cor-fonte-nome: #464646;
     --cor-fonte-consulta: #A3A3A3;
     --cor-botão-video: #FFB050; 
     --cor-botão-audio: #ECECEC; 
     --cor-botão-endereço: #4894FF; 
     --fonte-botão-cor: #FFFFFF;
+    --cinza-secundario: #F6F6F6;
     --texto-fonte:"Montserrat", sans-serif;
     --fonte-tamanho: 0.9rem;
     --fonte-consulta-tamanho: 0.8rem;
