@@ -1,10 +1,7 @@
-.consulta {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    margin-top: 0.5rem;
-    align-items: center;
-    width: 100%;
+.consultas {
+    padding: 0 16px;
+    height: calc(100vh - 110px - 58px);
+    overflow-y: scroll;
 }
 
 .consulta_dia{

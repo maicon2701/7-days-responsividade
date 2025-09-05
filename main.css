@@ -1,5 +1,8 @@
+@import url(reset.css);
 @import url(styles/cabeçalho.css);
 @import url(styles/consulta.css);
+@import url(styles/rodape.css);
+@import url(styles/botao-flutuante.css);
 
 :root{
     --cor-de-fundo:  #F8F4FF;
@@ -21,13 +24,18 @@
 
 
 body{
-    width: 100%;
-    height: 100vh;
+    
+    
     font-size: var(--fonte-tamanho);
     font-family: var(--texto-fonte);
     background-color: var(--cor-de-fundo);
     font-weight: var(--peso-fonte-botão);
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+  }
 
 hr{
     border: none;
