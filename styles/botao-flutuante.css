@@ -5,7 +5,6 @@
     position: absolute;
     right: 16px;
     bottom: 70px;
-  
     width: 56px;
     height: 56px;
     border-radius: 50%;
@@ -24,4 +23,76 @@
     left: 50%;
     transform: translate(-50%,-50%);
   }
-  
+
+  .botao__flutuante-cadastro:active{
+    opacity: 90%;
+     transform: scale(0.95); /*Diminui o tamanho do botão quando ele é clicado*/
+  }
+
+
+  .botao__flutuante-opcoes{
+    position:absolute;
+    width:100%;
+    opacity: 0;
+    right: 0;
+    bottom: 0;
+    padding: 80vh 0 20px 0;
+    padding-bottom: 130px;
+    transition: .3s ease;
+    transform-origin: scale(0);
+    transform-origin: 85% bottom;
+    background: radial-gradient(circle at bottom right, black, 20%, transparent);
+    z-index: 2;
+  }
+
+
+.botao__flutuante-cadastro:focus + ul{ /*O Focus faz com que é quando esse elemento é selecionado ele ele recebe um foco*/
+    opacity: 1;
+    transform: scale(1);
+}
+
+.botao__flutuante>ul li{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.botao__flutuante ul li>span{
+  display: flex;
+  align-items: center;
+  height: 1.5rem;
+  font-size: 0.8rem;
+  background: white;
+  border-radius: 20px;
+  padding: 0 8px;
+  margin-right: 4px;
+}
+
+button.botao__flutuante-item{
+  display: flex;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  position: relative;
+  filter: drop-shadow(0 3px 6px #4894FF90);
+}
+button.botao__flutuante-item span{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+button.botao__flutuante-item span.local{
+  background-image: url('../src/icons/Pin.svg');
+}
+
+button.botao__flutuante-item span.remoto{
+  background-image: url('../src/icons/Camera.svg');
+}

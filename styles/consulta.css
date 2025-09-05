@@ -2,26 +2,24 @@
     padding: 0 16px;
     height: calc(100vh - 110px - 58px);
     overflow-y: scroll;
+  
 }
 
 .consulta_dia{
     color: var(--cor-fonte-nome);
     font-weight: var(--peso-fonte-nome);
     font-size: 1rem;
-    margin-left:1.2rem ;
     margin-top: 2rem;
-
+    
 }
 
 .card__consulta {
     margin-top: 0.5rem;
     background-color: white;
     border-radius: 9px;
-    width: 78%;
     height: 18vh;
     padding: 16px 16px 0;
-    
-
+    margin-bottom: 1rem;
 }
 
 .container__consulta{
