@@ -30,8 +30,8 @@
   }
 
 
-  .botao__flutuante-opcoes{
-    position:absolute;
+  .botao__flutuante ul{
+    position: absolute;
     width:100%;
     opacity: 0;
     right: 0;
@@ -39,7 +39,7 @@
     padding: 80vh 0 20px 0;
     padding-bottom: 130px;
     transition: .3s ease;
-    transform-origin: scale(0);
+    transform: scale(0);
     transform-origin: 85% bottom;
     background: radial-gradient(circle at bottom right, black, 20%, transparent);
     z-index: 2;
