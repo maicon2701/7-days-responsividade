@@ -96,7 +96,7 @@
     height: 2.8rem;
     border-radius: 8px;
     min-width: 8.6rem;
-    max-height: 3rem;
+    height: 3rem;
 }
 
 .video{
@@ -134,10 +134,39 @@
     }
     .botão{
         min-width: 12.0rem;
-        max-height:3.2rem;
+        height:3.2rem;
     }
     
     .endereço{
         width: 26rem;
+    }
+}
+
+@media screen and (min-width: 1366px){
+    .consultas{
+      
+    }
+    
+    .consulta_dia{
+        margin-bottom: 3.5rem;
+    }
+    
+    
+    .consullta__flex{
+        display: flex;
+        
+        width: auto;
+        column-gap: 5%;
+        justify-content: flex-start;
+        margin: auto;
+    }
+    .card__consulta{
+        height: 10rem;
+        margin-left: 2rem;
+    }
+    .botão{
+        min-width: 12.0rem;
+        height: 4rem;
+        font-size: 1rem;
     }
 }

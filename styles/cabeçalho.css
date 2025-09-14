@@ -30,3 +30,11 @@
     font-weight: var(--peso-fonte-consulta);
     color: var(--cor-fonte-consulta);
 }
+
+
+@media screen and (min-width: 1366px){
+    .imagem__cabeçalho{
+       width: 80px;
+       height: 80px; 
+    }
+}
